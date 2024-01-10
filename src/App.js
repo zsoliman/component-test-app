@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './components/Home';
 import Navigation from './components/Navigation';
+import { Navbar, Nav } from 'rsuite';
 import { useState } from 'react';
 
 function App() {
@@ -10,9 +11,9 @@ function App() {
       <>
         <Navigation activeKey={activeKey} onSelect={setActiveKey} />
         <hr />
-        <Navigation appearance="inverse" activeKey={activeKey} onSelect={setActiveKey} />
+        {/* <Navigation appearance="inverse" activeKey={activeKey} onSelect={setActiveKey} />
         <hr />
-        <Navigation appearance="subtle" activeKey={activeKey} onSelect={setActiveKey} />
+        <Navigation appearance="subtle" activeKey={activeKey} onSelect={setActiveKey} /> */}
       </>
       <Home />
 
