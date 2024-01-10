@@ -1,7 +1,6 @@
 import './App.css';
 import Home from './components/Home';
 import Navigation from './components/Navigation';
-import { Navbar, Nav } from 'rsuite';
 import { useState } from 'react';
 
 function App() {
