@@ -12,3 +12,6 @@ Add: `import { useState } from 'react';`
 
 # 3:
 Add to App.css: `@import "rsuite/dist/rsuite.css";`
+
+# Reminder:
+Check the rsuite sandbox for anything missing
