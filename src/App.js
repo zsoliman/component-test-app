@@ -1,5 +1,5 @@
 import './App.css';
-import Home from './components/Home';
+import Landing from './components/Landing';
 
 import Navigation from './components/Navigation';
 import { useState } from 'react';
@@ -7,9 +7,7 @@ import { useState } from 'react';
 function App() {
   const [activeKey, setActiveKey] = useState(null);
 
-  const componentChange = () => {
-    return <Home />
-  }
+
   return (
     <div className="App">
       <>
@@ -20,7 +18,8 @@ function App() {
         <Navigation appearance="subtle" activeKey={activeKey} onSelect={setActiveKey} />
       </>
 
-      <Home />
+      <Landing />
+
 
 
     </div>
