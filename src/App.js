@@ -1,5 +1,6 @@
 import './App.css';
 import Home from './components/Home';
+
 import Navigation from './components/Navigation';
 import { useState } from 'react';
 
@@ -15,6 +16,7 @@ function App() {
         <Navigation appearance="subtle" activeKey={activeKey} onSelect={setActiveKey} /> */}
       </>
       <Home />
+
 
     </div>
   );
